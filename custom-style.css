@@ -1,10 +1,7 @@
-body{ font-size: 1.6em;
-    font-family: sans-serif;
-    
-
-
-           
-    
+body{ 
+    font-size: 1.6em;
+    font-family: sans-serif;   
+  
 }
 header{ 
     
@@ -17,9 +14,6 @@ header{
     position:fixed;
     width: 100%;
     top:0;
-    
-    
-
 }
 header .logo{    
     font-weight: bold;
@@ -28,9 +22,11 @@ header .logo{
 header nav a{
     text-decoration: none;
     color:darkslategray;
-    padding:0 1em;
+    padding:0 1em;}
 
-    
+.linkki{
+    padding-top: 150px;
+    margin-left: 240px;
 }
 header nav a:hover{
     color:black;
@@ -38,33 +34,49 @@ header nav a:hover{
     
 }
 main{
-    margin :130px;   
+   margin: 130px;
+       
 }
 h1{
     font-size: 1.6em;  
 }
-section{
+section{    
     max-width: 1300px;
     width: 70%;
-    padding-top: 10px; 
-    
+    padding-top: 10px;    
+}
+main nav{
+    position: fixed;
+    left: 6px;
+    width: 18%;
+    background-color: gray;
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 20px;
+}
+main nav a{
+    text-decoration: none;
+    display: block;
+    border: 1px solid red;
+    padding:5px;
+    color: darkslategray;      
+}
+main nav a:hover{
+    color:black;
+    background-color: red;
 }
 .sisalto{
     
     margin-left: 20%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     background-color: lightgrey;
     padding: 20px;
     border: 1px solid red;
     border-radius: 5px;
-
-
 }
 thead{
     border: 2px solid red;
-    background-color: rgb(189, 183, 183);    
-    
-
+    background-color: rgb(189, 183, 183);  
  
 }
 table{
